@@ -1,0 +1,28 @@
+#div1{
+    border: 2px dashed palevioletred;
+    border-radius: 25px;
+    background-color: #baca2c;
+}
+#div2{
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(43, 226, 217);
+}
+#div3{
+    border: 2px dotted hsl(113, 67%, 80%);
+    border-radius: 25px;
+    background-color:rgb(40, 124, 47);
+}
+#div4{
+    border: 2px dotted rgb(39, 7, 99);
+    border-radius: 25px;
+    background-color:#46052b;
+}
+#spdiv{
+    border-top: 2px double yellowgreen;
+    border-bottom:2px dashed black ;
+    border-left: 2px dotted blue;
+    border-right:2px ridge  black;
+    background-color:darkcyan;
+    border-radius: 25px;
+}

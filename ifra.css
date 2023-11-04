@@ -1,0 +1,23 @@
+h2{
+    color: blueviolet;
+}
+h3{
+    color:darkorange;
+}
+div{
+    border: 2px solid red;
+}
+#bg{
+    background-color: rgb(238, 255, 0);
+    animation-name: anime;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    0%{background-color:#FFFB73}
+    25%{background-color:aqua;}
+    50%{background-color: rgb(73, 226, 43);}
+    75%{background-color:cadetblue;}
+    100%{background-color:pink;}
+}

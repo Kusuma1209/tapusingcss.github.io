@@ -1,0 +1,73 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: navy;
+}
+a:active{
+    color: gray;
+}
+a{
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: azure;
+    animation-name: ani;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    0%{left:0px ;background-color:pink;}
+    50%{left:20px;background-color:aqua;}
+    100%{left:0px;background-color:pink;}
+}
+a:hover{
+    background-color: chartreuse;
+}
+pre{
+    text-align: right;
+}
+span{
+     color: darkgreen;
+}
+#h3::first-letter{
+    font-family: serif;
+    font-size: 50px;
+}
+#h4::first-letter{
+    font-family: cursive;
+    font-size: 70px;
+}
+#h1::first-line{
+    font-size: 40px;
+    font-family: monospace;
+    color:blueviolet;
+}
+#div1{
+    border: 2px dotted black;
+    border-radius: 25px;
+    background-color: darkgray;
+    padding-top: 20px;
+}
+#div2{
+    border: 2px double black;
+    border-radius: 25px;
+    background-color: rgb(43, 226, 217);
+}
+#div3{
+    border: 2px dashed black;
+    border-radius: 25px;
+    background-color:hsl(69, 90%, 54%);
+}
+#spdiv{
+    border-top: 2px double yellowgreen;
+    border-bottom:2px dashed black ;
+    border-left: 2px dotted blue;
+    border-right:2px ridge  black;
+    background-color:darkcyan;
+    border-radius: 25px;
+}
+#grad {
+    background-image: linear-gradient(to right, rgb(230, 99, 12) ,hsla(240, 43%, 55%, 0.849),indigo,#e3ee82);
+  }
